@@ -155,7 +155,7 @@ Bus network connecting DistC to peripheral devices like printers and IoT devices
 # 🔧 Configuration Notes
 
 ## VLAN Configuration
-\`\`\`bash
+```bash
 vlan 10
  name SERVERS
 vlan 20
@@ -170,7 +170,7 @@ interface FastEthernet0/2
 interface GigabitEthernet0/1
  switchport mode trunk
  switchport trunk allowed vlan 10,20,30
-\`\`\`
+```
 
 ## Router-on-a-Stick
 \`\`\`bash
