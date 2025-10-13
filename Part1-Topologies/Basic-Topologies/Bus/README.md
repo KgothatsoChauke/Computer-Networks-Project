@@ -1,42 +1,48 @@
 # Bus Topology
 
 ## Overview
-A bus topology where all devices share a single communication backbone.
+A bus network topology where all devices are connected to a single backbone cable.
 
 ## Characteristics
-- **Layout**: Linear backbone cable with drop lines
-- **Advantages**: Simple setup, minimal cabling required
-- **Disadvantages**: Single point of failure, network performance decreases with more devices
+- **Layout**: Linear bus with drop lines to each device
+- **Advantages**: Simple setup, minimal cabling, cost-effective for small networks
+- **Disadvantages**: Single point of failure, difficult to troubleshoot, performance degrades with heavy traffic
 
 ## Network Configuration
-- **Total Devices**: 4 PCs, 1 Hub
-- **IP Scheme**: 192.168.1.0/24
+- **Total Devices**: [e.g., 4 PCs, 1 Hub]
+- **IP Scheme**: [e.g., 192.168.1.0/24]
+- **Backbone Cable**: [e.g., Coaxial cable]
+- **Terminators**: [e.g., 2 terminators installed]
 
 ## Devices Used
-- 4 PCs
-- 1 Hub
-- Coaxial cables
+- [Number] PCs
+- [Number] Hubs/Switches
+- [Number] Terminators
 
 ## IP Address Table
 | Device | IP Address | Subnet Mask | Default Gateway |
 |--------|------------|-------------|-----------------|
-| PC0    | 192.168.1.10 | 255.255.255.0 | 192.168.1.1 |
-| PC1    | 192.168.1.11 | 255.255.255.0 | 192.168.1.1 |
-| PC2    | 192.168.1.12 | 255.255.255.0 | 192.168.1.1 |
-| PC3    | 192.168.1.13 | 255.255.255.0 | 192.168.1.1 |
+| [PC0] | [192.168.1.10] | [255.255.255.0] | [192.168.1.1] |
+| [PC1] | [192.168.1.11] | [255.255.255.0] | [192.168.1.1] |
+| [Add all your devices] | | | |
+
+## Configuration Notes
+- All devices share the same collision domain
+- CSMA/CD protocol used for media access
+- Cable length: [specify if relevant]
 
 ## Screenshots
 ![Topology Overview](./screenshots/topology-view.png)
-*Complete bus topology layout*
+*Complete bus network layout*
 
 ![Device Configuration](./screenshots/device-config.png)
-*PC0 IP configuration*
+*IP configuration example*
 
 ![Connectivity Test](./screenshots/ping-test.png)
-*Successful ping test between PC0 and PC3*
+*Successful communication test*
 
 ## Verification
 - ✅ All devices can communicate with each other
-- ✅ IP addresses properly assigned and unique
-- ✅ No packet collisions detected in simulation
+- ✅ No IP address conflicts
 - ✅ End-to-end connectivity verified
+- ✅ Proper termination confirmed
