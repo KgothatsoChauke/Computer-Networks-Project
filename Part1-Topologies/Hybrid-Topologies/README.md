@@ -173,7 +173,7 @@ interface GigabitEthernet0/1
 ```
 
 ## Router-on-a-Stick
-\`\`\`bash
+```bash
 interface GigabitEthernet0/0.10
  encapsulation dot1Q 10
  ip address 10.0.10.1 255.255.255.0
@@ -188,10 +188,10 @@ interface GigabitEthernet0/0.30
  encapsulation dot1Q 30
  ip address 10.0.40.1 255.255.255.0
  ipv6 address 2001:DB8:ACAD:40::1/64
-\`\`\`
+```
 
 ## Security Configurations
-\`\`\`bash
+```bash
 username admin privilege 15 secret admin123
 line vty 0 4
  transport input ssh
@@ -202,17 +202,17 @@ interface range FastEthernet0/2-4
  switchport port-security
  switchport port-security maximum 2
  switchport port-security violation restrict
-\`\`\`
+```
 
 ## DNS Service Records
-\`\`\`
+```
 webserver.local    → 10.0.10.10
 fileserver.local   → 10.0.1.20
 officepc1.local    → 10.0.1.10
 ringpc1.local      → 10.0.30.10
 guestpc1.local     → 10.0.50.10
 printer1.local     → 10.0.40.10
-\`\`\`
+```
 
 ---
 
@@ -244,7 +244,7 @@ printer1.local     → 10.0.40.10
 ---
 
 # 📁 Project Structure
-\`\`\`
+```
 Hybrid-Network-Project/
 ├── README.md
 ├── IP-Addressing-Tables.md
@@ -258,7 +258,7 @@ Hybrid-Network-Project/
     ├── security-features/
     ├── vlan-configuration/
     └── service-verification/
-\`\`\`
+```
 
 ---
 
