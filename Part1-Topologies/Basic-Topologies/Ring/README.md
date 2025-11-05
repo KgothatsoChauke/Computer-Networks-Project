@@ -60,7 +60,7 @@ Network topology where switches are connected in a circular ring formation, with
 - **Minimum Hops**: 1 (adjacent devices on same switch)
 
 ## Screenshots
-![Topology Overview](./screenshots/topology-view.png)
+![Topology Overview](./screenshots/Ring-Overview.png)
 *Ring topology showing switches in circular formation with connected PCs*
 
 ![Device Configuration](./screenshots/device-config.png)
@@ -69,7 +69,7 @@ Network topology where switches are connected in a circular ring formation, with
 ![Ring Verification](./screenshots/ring-test.png)
 *Switch connections confirming ring formation*
 
-![Connectivity Test](./screenshots/ping-test.png)
+![Connectivity Test](./screenshots/ring-ping-results.png)
 *End-to-end communication test around the ring*
 
 ## Verification Tests
