@@ -54,13 +54,13 @@ A bus network topology where all devices are connected through switches in a lin
 - Each PC has a dedicated switch port
 
 ## Screenshots
-![Topology Overview](./screenshots/topology-view.png)
+![Topology Overview](./screenshots/Bus-View.png)
 *Complete bus topology with 9 PCs and 9 switches in linear configuration*
 
 ![Device Configuration](./screenshots/device-config.png)
 *PC0 IP configuration example*
 
-![Connectivity Test](./screenshots/ping-test.png)
+![Connectivity Test](./screenshots/Bus-Ping_results.png)
 *End-to-end communication test between PC0 and PC8*
 
 ## Verification Tests
