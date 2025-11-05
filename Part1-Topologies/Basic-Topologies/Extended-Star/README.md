@@ -94,7 +94,7 @@ Hierarchical star topology with a central core switch connecting multiple access
 - **Top Star (Switch1)**: Laptops 3,4,5 → IPs .10,.11,.12
 
 ## Screenshots
-![Topology Overview](./screenshots/topology-view.png)
+![Topology Overview](./screenshots/Extended-Star-Overview.png)
 *Extended star showing cross formation with central Switch3*
 
 ![Core Switch Configuration](./screenshots/core-config.png)
@@ -103,7 +103,7 @@ Hierarchical star topology with a central core switch connecting multiple access
 ![Access Switch Example](./screenshots/access-config.png)
 *Sample access switch configuration*
 
-![Cross-star Communication](./screenshots/ping-test.png)
+![Cross-star Communication](./screenshots/extended-star-results.png)
 *Connectivity test between devices on different access switches*
 
 ## Verification Tests
