@@ -14,11 +14,11 @@ This project demonstrates various network topologies and troubleshooting techniq
 ## Part 1: Network Topologies
 
 ### Section 1: Basic Topologies
-1. **Bus Topology** - [Details](./Part1-Topologies/Section1-Basic-Topologies/Bus/README.md)
-2. **Mesh Topology** - [Details](./Part1-Topologies/Section1-Basic-Topologies/Mesh/README.md)
-3. **Star Topology** - [Details](./Part1-Topologies/Section1-Basic-Topologies/Star/README.md)
-4. **Ring Topology** - [Details](./Part1-Topologies/Section1-Basic-Topologies/Ring/README.md)
-5. **Extended Star Topology** - [Details](./Part1-Topologies/Section1-Basic-Topologies/Extended-Star/README.md)
+1. **Bus Topology** - [Details](./Part1-Topologies/Basic-Topologies/Bus/README.md)
+2. **Mesh Topology** - [Details](./Part1-Topologies/Basic-Topologies/Mesh/README.md)
+3. **Star Topology** - [Details](./Part1-Topologies/Basic-Topologies/Star/README.md)
+4. **Ring Topology** - [Details](./Part1-Topologies/Basic-Topologies/Ring/README.md)
+5. **Extended Star Topology** - [Details](./Part1-Topologies/Basic-Topologies/Extended-Star/README.md)
 
 ### Section 2: Hybrid Topologies
 - Combination of multiple basic topologies
