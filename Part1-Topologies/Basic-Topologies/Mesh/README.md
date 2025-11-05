@@ -64,13 +64,13 @@ Full mesh topology with all switches interconnected, providing redundant paths a
 - **Maximum link failures before disconnect**: Up to 4 links can fail while maintaining connectivity between any two devices
 
 ## Screenshots
-![Topology Overview](./screenshots/topology-view.png)
+![Topology Overview](./screenshots/mesh-overview.png)
 *Full mesh topology showing all switch interconnections*
 
 ![Device Configuration](./screenshots/device-config.png)
 *PC1 IP configuration example*
 
-![Redundancy Test](./screenshots/ping-test.png)
+![Redundancy Test](./screenshots/mesh-ping-results.png)
 *Connectivity test after simulating link failures*
 
 ## Verification Tests
