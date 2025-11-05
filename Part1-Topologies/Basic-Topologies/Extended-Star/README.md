@@ -103,7 +103,7 @@ Hierarchical star topology with a central core switch connecting multiple access
 ![Access Switch Example](./screenshots/access-config.png)
 *Sample access switch configuration*
 
-![Cross-star Communication](./screenshots/extended-star-results.png)
+![Cross-star Communication](./screenshots/extended-star-ping-results.png)
 *Connectivity test between devices on different access switches*
 
 ## Verification Tests
