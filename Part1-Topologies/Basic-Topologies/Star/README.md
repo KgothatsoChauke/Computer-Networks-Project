@@ -54,7 +54,7 @@ Centralized network topology with all devices connected to a single central swit
 - **Media Access**: Switch provides full-duplex communication
 
 ## Screenshots
-![Topology Overview](./screenshots/topology-view.png)
+![Topology Overview](./screenshots/Star-Overview.png)
 *Star topology with central Switch0 and 5 connected PCs*
 
 ![Device Configuration](./screenshots/device-config.png)
@@ -63,7 +63,7 @@ Centralized network topology with all devices connected to a single central swit
 ![Switch Configuration](./screenshots/switch-config.png)
 *Switch0 port status and configuration*
 
-![Connectivity Test](./screenshots/ping-test.png)
+![Connectivity Test](./screenshots/star-ping-results.png)
 *Communication test between PC0 and PC4*
 
 ## Verification Tests
